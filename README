@@ -4,9 +4,9 @@ To run this program, unzip this file onto local machine, and run "sh run_warehou
 
     static getTotalDistance(pings);
 
-  This method should return the total distance traversed by the given forklift. 
-  You can assume the input list is sorted with the earliest ping at the start. 
-  Once you are done, use vehicle.getTotalDistance() in your implementations of:
+  Return the total distance traversed by the given forklift. 
+  Input list is sorted with the earliest ping at the start. 
+  Use vehicle.getTotalDistance() in your implementations of:
 
     getAverageSpeed();
 
@@ -20,7 +20,7 @@ To run this program, unzip this file onto local machine, and run "sh run_warehou
 
   This method returns an array of the maxResults forklifts that have traveled
   the most distance since timestamp (inclusive), sorted by those that have
-  moved most to least. You can assume the lists of pings for each vehicle are
+  moved most to least. List of pings for each vehicle are
   sorted with the earliest ping at the start.
 
 3.  We want to be as proactive as possible in providing maintenance and repairs
@@ -29,10 +29,9 @@ To run this program, unzip this file onto local machine, and run "sh run_warehou
 
     checkForDamage();
 
-  This method should identify a list of forklifts that might need to be
+  To identify a list of forklifts that might need to be
   inspected. Examples of behavior that might warrant an inspection include
   forklifts which have been driven aggressively or when forklifts collide with 
-  one another. You can use any heuristics you like, but are encouraged to make 
-  sure your decisions are welldocumented and your code is appropriately decomposed.
+  one another.
 
 
